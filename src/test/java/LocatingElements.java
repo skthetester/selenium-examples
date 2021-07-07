@@ -33,6 +33,7 @@ public class LocatingElements {
 //        searchElement.sendKeys(Keys.ENTER);
         searchElement.sendKeys(Keys.TAB);
 
+        //Additional interactions with a new webelement
         WebElement searchBtn = driver.findElement(By.cssSelector("div[class='FPdoLc lJ9FBc'] input[name='btnK']"));
         searchBtn.click();
 
