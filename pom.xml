@@ -48,5 +48,11 @@
             <version>4.4.3</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.deque.html.axe-core</groupId>
+            <artifactId>selenium</artifactId>
+            <version>4.5.1</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 </project>
